@@ -1,6 +1,6 @@
 ﻿namespace PS.LeaveManagement.Domain.Common
 {
-    abstract class BaseDomainEntity
+    public abstract class BaseDomainEntity
     {
         public int Id { get; set; }
         public DateTime CreatedDate { get; set; }
