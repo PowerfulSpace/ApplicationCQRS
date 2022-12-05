@@ -1,4 +1,4 @@
-﻿using PS.LeaveManagement.Application.DTOs.LeaveRequest;
+﻿using PS.LeaveManagement.Application.DTOs.LeaveAllocation;
 using PS.LeaveManagement.Domain;
 
 namespace PS.LeaveManagement.Application.Persistence.Contract

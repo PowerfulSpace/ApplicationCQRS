@@ -5,9 +5,9 @@ namespace PS.LeaveManagement.Application.DTOs.LeaveAllocation
 {
     public class LeaveAllocationDto : BaseDto, ILeaveAllocationDto
     {
-        public LeaveTypeDto? LeaveType { get; set; }
+        public LeaveTypeDto LeaveType { get; set; } = null!;
         public int LeaveTypeId { get; set; }
-        public int NumberIfDays { get; set; }
+        public int NumberOfDays { get; set; }
         public int Period { get; set; }
     }
 }

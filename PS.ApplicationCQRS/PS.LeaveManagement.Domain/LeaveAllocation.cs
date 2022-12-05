@@ -12,7 +12,7 @@ namespace PS.LeaveManagement.Domain
         /// </summary>
         public LeaveType? LeaveType { get; set; }
         public int LeaveTypeId { get; set; }
-        public int NumberIfDays { get; set; }        
+        public int NumberOfDays { get; set; }        
         public int Period { get; set; }
     }
 }
