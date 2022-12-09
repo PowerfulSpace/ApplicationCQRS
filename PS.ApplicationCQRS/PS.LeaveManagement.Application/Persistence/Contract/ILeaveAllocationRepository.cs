@@ -7,6 +7,6 @@ namespace PS.LeaveManagement.Application.Persistence.Contract
     {
         Task<LeaveAllocationDto> GetLeaveAllocationWithDetails(int id);
         Task<List<LeaveAllocationDto>> GetLeaveAllocationsWithDetails();
-        Task ChangeApprovalStatus(LeaveType leaveAllocation, bool? approvalStatus);
+        Task ChangeApprovalStatus(LeaveAllocation leaveAllocation, bool? approvalStatus);
     }
 }
