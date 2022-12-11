@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Features\LeaveRequest\" />
-    <Folder Include="Features\LeaveAllocation\" />
+    <Folder Include="Features\LeaveRequests\" />
+    <Folder Include="Features\LeaveAllocations\" />
     <Folder Include="Profiles\" />
   </ItemGroup>
 
