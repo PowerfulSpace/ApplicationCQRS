@@ -8,8 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Features\LeaveAllocations\" />
-    <Folder Include="Features\LeaveRequests\Handler\Commands\" />
-    <Folder Include="Features\LeaveRequests\Request\Commands\" />
     <Folder Include="Profiles\" />
   </ItemGroup>
 

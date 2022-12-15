@@ -3,7 +3,7 @@ using PS.LeaveManagement.Application.Persistence.Contract;
 
 namespace PS.LeaveManagement.Application.DTOs.LeaveRequest.Validators
 {
-    public class UpdateLeaveRequestDtoValidator : AbstractValidator<LeaveRequestDto>
+    public class UpdateLeaveRequestDtoValidator : AbstractValidator<UpdateLeaveRequestDto>
     {
         private readonly ILeaveTypeRepository _leaveTypeRepository;
         public UpdateLeaveRequestDtoValidator(ILeaveTypeRepository leaveTypeRepository)

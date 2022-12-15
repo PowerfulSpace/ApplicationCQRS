@@ -6,9 +6,9 @@ namespace PS.LeaveManagement.Application.DTOs.LeaveRequest.Validators
     public class ILeaveRequestDtoValidator : AbstractValidator<ILeaveRequestDto>
     {
         private readonly ILeaveTypeRepository _leaveTypeRepository;
-        public ILeaveRequestDtoValidator(ILeaveTypeRepository leaveRequestRepository)
+        public ILeaveRequestDtoValidator(ILeaveTypeRepository leaveTypeRepository)
         {
-            _leaveTypeRepository = leaveRequestRepository;
+            _leaveTypeRepository = leaveTypeRepository;
 
             RuleFor(p => p.StartDate)
                 .LessThan(p => p.EndDate).WithMessage("{PropertyName} must be before {ComparisonValue}");
