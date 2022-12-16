@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Features\LeaveAllocations\" />
+    <Folder Include="Features\LeaveAllocations\Handler\Queries\" />
     <Folder Include="Profiles\" />
   </ItemGroup>
 
